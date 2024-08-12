@@ -10,16 +10,22 @@ const BannerSlides = () => {
     const textLines = []
 
     return (
-            <div className="container">
-                <div className="content">
-                <div className="thumb align-center">
+        <div className="container">
+            <div className="content" style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+            }}>
+                <Image src={illustration3} alt="Thumb" width={603} height={612} />
+                <Image style={{position:'absolute',zIndex:'-1'}} src={shape7} alt="Thumb" className='imgFilter'/>
+
+                {/* <div className="thumb align-center">
                             <Image src={illustration3} alt="Thumb" width={603} height={612}  />
                             <div className="shape-center">
-                                <Image src={shape7} alt="Thumb" className='imgFilter'/>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </div> */}
+            </div>
+        </div>
     );
 };
 

@@ -3591,6 +3591,10 @@ header.header-fixed .video-play-button.theme:after {
 	font-size: 30px;
 	font-weight: 800;
 }
+.banner-area .swiper-pagination-fraction  {
+	color: #000000;
+}
+
 
 /* Banner Custom */
 
@@ -6752,8 +6756,7 @@ footer {
 }
 
 .banner-style-one.banner-three .thumb img {
-	height: auto;
-	margin-left: 250px;
+	
 }
 
 .banner-three .text-invisible {
@@ -6893,7 +6896,7 @@ footer {
 }
 
 .side .widget .logo::after {
-	background: var(--color-primary);
+	background: var(--white) !important;
 }
 
 .side .close-side i {
@@ -6968,11 +6971,7 @@ ul.side-nav li a:hover {
 		color: var(--color-primary) !important;
 	}
 
-	.navbar-icon-menu a.navbar-brand.logo-icon {
-		height: 60px;
-		width: 60px;
-		
-	}
+	
 
 	nav.navbar.validnavs.navbar-icon-menu.logo {
 		height: 30px;
@@ -7218,3 +7217,44 @@ ul.side-nav li a:hover {
 }
 
 
+/*YAPAY ZEKA*/
+.logo-container {
+	position: relative;
+	width: 100%;
+	max-width: 300px; /* Maksimum genişliği artırdık */
+	height: auto;
+	aspect-ratio: 16 / 9;
+}
+  
+  .logo-container img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+  }
+  
+  @media (max-width: 1200px) {
+	.logo-container {
+	  max-width: 250px; /* Daha büyük ekranlar için orta boy */
+	}
+  }
+  
+  @media (max-width: 992px) {
+	.logo-container {
+	  max-width: 200px; /* Tablet boyutu için */
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.logo-container {
+	  max-width: 180px; /* Küçük tablet ve büyük telefonlar için */
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.logo-container {
+	  max-width: 150px; /* Mobil cihazlar için */
+	}
+  }
