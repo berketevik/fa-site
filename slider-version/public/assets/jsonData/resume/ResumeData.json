@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "AS - Science & Information",
+        "subTitle": "SuperKing College",
+        "timeSpan": "2001 - 2005",
+        "text": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+    },
+    {
+        "id": 2,
+        "title": "BSc in Computer Science",
+        "subTitle": "University of DVI",
+        "timeSpan": "2006 - 2010",
+        "text": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+    },
+    {
+        "id": 3,
+        "title": "Web Developer & Trainer",
+        "subTitle": "Apple Developer Team",
+        "timeSpan": "2012 - 2016",
+        "text": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+    },
+    {
+        "id": 4,
+        "title": "Sr. Software Engineer",
+        "subTitle": "Google Out Tech",
+        "timeSpan": "2017 - Present",
+        "text": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+    }
+]
