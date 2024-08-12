@@ -4,7 +4,6 @@ import SinglePortfolio from './SinglePortfolio';
 
 const Portfolio = () => {
     return (
-        <>
             <div className="container">
                 <div className="content">
                     <div className="row align-center">
@@ -21,7 +20,6 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-        </>
     );
 };
 

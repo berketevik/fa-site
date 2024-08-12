@@ -6,7 +6,6 @@ const SinglePortfolio = ({ portfolio }) => {
     const { id, title, thumb, subTitle, arrowIcon } = portfolio
 
     return (
-        <>
             <div className="pf-item">
                 <div className="overlay-content">
                     <Image src={`/assets/img/portfolio/${thumb}`} alt="thumb" width={160} height={200} />
@@ -19,7 +18,6 @@ const SinglePortfolio = ({ portfolio }) => {
                     </div>
                 </div>
             </div>
-        </>
     );
 };
 

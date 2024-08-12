@@ -6,7 +6,7 @@ First, run the development server:
 
 ```bash
 
-pnpm dev
+npm run dev
 
 ```
 
