@@ -850,7 +850,7 @@ body {
 	content: "";
 	height: 100%;
 	width: 200%;
-	background: #f5f5DC !important;
+	background: hsl(0, 0%, 0%) !important;
 	z-index: -1;
 }
 
@@ -872,7 +872,7 @@ body.on-side nav.navbar::after {
 
 .side .close-side {
 	border-radius: 50%;
-	border: 2px solid rgb(0, 0, 0);
+	border: 2px solid #ffffff;
 	float: right;
 	font-size: 16px;
 	font-weight: 400;
@@ -2821,6 +2821,7 @@ a.navbar-brand.logo-icon {
 	background:white;
 	text-align: center;
 	border-radius: 50%;
+	background-color: black;
 }
 
 a.navbar-brand.logo-icon img {
@@ -2831,6 +2832,7 @@ a.navbar-brand.logo-icon img {
 	height: 120px;
 	width: 120px;
 	margin-left : 100px;
+	
 }
 
 .attr-nav li.btn-trend a {

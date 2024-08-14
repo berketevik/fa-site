@@ -10,7 +10,7 @@ const Portfolio = () => {
                         <div className="col-lg-1 info">
                             <h2 className="curbe-title">Projelerimiz</h2>
                         </div>
-                        <div className="col">
+                        <div className="col-lg-10 offset-lg-1 thumb">
                             <div id="portfolio-grid" className="gallery-items colums-3">
                                 {PortfolioData.map(portfolio =>
                                     <SinglePortfolio portfolio={portfolio} key={portfolio.id} />

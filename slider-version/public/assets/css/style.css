@@ -4666,7 +4666,7 @@ xclip
 =================================================================== */
 .side .widget .logo img {
 	height: 40px;
-	max-width: 145px;
+	max-width: 225px;
 }
 
 .shape-right-top-mini {
@@ -6302,7 +6302,12 @@ footer {
 	.text-shade {
 		display: none;
 	}
-
+	#portfolio-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr); /* Gerekirse sütun sayısını ayarlayın */
+		gap: 20px; /* Grid öğeleri arasındaki boşluğu ayarlayın */
+	}
+	
 
 	/* Portfolio */
 	.gallery-items .pf-item,
@@ -6310,7 +6315,12 @@ footer {
 	.gallery-items.colums-4 .pf-item {
 		width: 100%;
 	}
-
+	.gallery-items img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+	
 	.magnific-mix-gallery {
 		margin: 0;
 	}
@@ -6755,9 +6765,6 @@ footer {
 	padding: 0;
 }
 
-.banner-style-one.banner-three .thumb img {
-	
-}
 
 .banner-three .text-invisible {
 	-webkit-text-stroke: 1px var(--white);
@@ -6896,11 +6903,11 @@ footer {
 }
 
 .side .widget .logo::after {
-	background: var(--white) !important;
+	background: var(--black) !important;
 }
 
 .side .close-side i {
-	color: var(--black);
+	color: var(--white);
 }
 
 .banner-three .education-table li {

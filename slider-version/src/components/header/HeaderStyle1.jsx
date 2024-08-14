@@ -2,8 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 import logoIcon from '@/assets/img/logo-icon.png';
-import logoLight from '@/assets/img/logo-light.png';
-import logoSon from '@/assets/img/logo-son.jpeg';
+import logosiyah from '@/assets/img/deneme.png';
+import logosiyahv1 from '@/assets/img/meto.png';
 import Link from 'next/link';
 import useSidebarInfo from '@/hooks/useSidebarInfo';
 import { toast } from 'react-toastify';
@@ -25,11 +25,12 @@ const HeaderStyle1 = () => {
                 className={`navbar navbar-icon-menu mobile-sidenav attr-border navbar-sticky navbar-default validnavs navbar-fixed white no-background on no-full ${isInfoOpen ? "pause-sticked" : ""}`}>
                 <div className="container d-flex justify-content-between align-items-center">
                     <div className="navbar-header">
-                        <Link className="navbar-brand logo-icon" href="/">
-                            <div className="logo-container">
-                                <Image src={logoSon} alt="Logo" layout="fill" />
-                            </div>
+                    <div className="logo-container">
+                    <Image src={logosiyah} alt="Logo" layout="fill" />
+                    <Link className="navbar-brand logo-icon" href="/">
                         </Link>
+                              </div>
+                        
                     </div>
                     <div className="attr-right">
                         <div className="attr-nav attr-box multi">
@@ -49,7 +50,7 @@ const HeaderStyle1 = () => {
                         <div></div>
                         <div className="widget">
                             <div className="logo">
-                                <Image src={logoSon} alt="Logo" />
+                                <Image src={logosiyahv1} alt="Logo" />
                             </div>
                         </div>
                         <div className="widget address">
