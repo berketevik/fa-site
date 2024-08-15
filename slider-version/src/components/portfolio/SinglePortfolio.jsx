@@ -12,9 +12,9 @@ const SinglePortfolio = ({ portfolio }) => {
                     <div className="content">
                         <div className="title">
                             <span>{subTitle}</span>
-                            <h5><Link href={`/portfolio-single/${id}`}>{title}</Link></h5>
+                            <h5><Link href={`/project/${id}`}>{title}</Link></h5>
                         </div>
-                        <Link href={`/portfolio-single/${id}`}><i className={arrowIcon}></i></Link>
+                        <Link href={`/project/${id}`}><i className={arrowIcon}></i></Link>
                     </div>
                 </div>
             </div>

@@ -1,17 +1,18 @@
 import React from 'react';
-import thumb1 from '@/assets/img/thumb/1.jpg'
-import thumb2 from '@/assets/img/thumb/2.jpg'
 import Image from 'next/image';
 import SocialShare from '../utilities/SocialShare';
 
-const PortfolioSingleContent = () => {
+const PortfolioSingleContent = ({ projectContent }) => {
+    const { id, title, thumb, subTitle, arrowIcon } = projectContent
+
     return (
         <>
             <div className="project-details-area default-padding">
                 <div className="container">
                     <div className="project-details-items">
                         <div className="project-thumb">
-                            <Image src="/assets/img/banner/2.jpg" alt="Thumb" width={1175} height={515} />
+                            <Image src={`/assets/img/project/${thumb}`} alt="thumb" width={1175} height={515} />
+
                         </div>
                         <div className="top-info">
                             <div className="row">
@@ -20,10 +21,10 @@ const PortfolioSingleContent = () => {
                                         <div className="content">
                                             <ul className="project-basic-info">
                                                 <li>
-                                                    Client <span>validthemes</span>
+                                                    {title}
                                                 </li>
                                                 <li>
-                                                    Project Type <span>Website Growth</span>
+                                                    {subTitle}
                                                 </li>
                                                 <li>
                                                     Date <span>25 July, 2024</span>
@@ -67,10 +68,11 @@ const PortfolioSingleContent = () => {
                             </p>
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
-                                    <Image src={thumb1} alt="Thumb" />
+                                    <Image src={`/assets/img/project/${thumb}`} alt="Thumb" width={160} height={200} />
                                 </div>
+
                                 <div className="col-lg-6 col-md-6">
-                                    <Image src={thumb2} alt="Thumb" />
+                                    <Image src={`/assets/img/project/${thumb}`} alt="Thumb" width={160} height={200} />
                                 </div>
                             </div>
                         </div>
