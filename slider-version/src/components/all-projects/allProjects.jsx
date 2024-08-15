@@ -2,13 +2,13 @@ import React from 'react';
 import PortfolioData from '@/assets/jsonData/portfolio/PortfolioData.json';
 import SinglePortfolio from './SinglePortfolio';
 
-const Portfolio = () => {
+const AllProjects = () => {
     return (
         <div className="container">
             <div className="content">
                 <div className="row align-center">
                     <div className="col-lg-1 info">
-                        <h2 className="curbe-title">Projelerimiz</h2>
+                        <h2 className="curbe-title">Tüm Projeler</h2>
                     </div>
                     
                     <div className="col-lg-10 offset-lg-1 thumb">
@@ -17,9 +17,6 @@ const Portfolio = () => {
                                 <SinglePortfolio portfolio={portfolio} key={portfolio.id} />
                             )}
                         </div>
-                        <div className="button-container">
-                            <a href="/allProjects/allProjects.jsx" className="view-all-button">Tüm Projeler</a> {/* Buton map dışında eklendi */}
-                        </div>
                     </div>
                 </div>
             </div>
@@ -27,4 +24,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default AllProjects;
