@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "thumb": "1.jpg",
+        "subTitle": "İstanbul, Beyoğlu",
+        "title": "Galataport Divan Brasserie",
+        "arrowIcon": "fas fa-arrow-right"
+    },
+    {
+        "id": 2,
+        "thumb": "11.jpg",
+        "subTitle": "İstanbul, Ataköy",
+        "title": "Medicana Hastanesi Divan Cafeteria",
+        "arrowIcon": "fas fa-arrow-right"
+    },
+    {
+        "id": 3,
+        "thumb": "3.jpg",
+        "subTitle": "İstanbul, Şişli",
+        "title": "Kanyon Divan Pub",
+        "arrowIcon": "fas fa-arrow-right"
+    },
+    
+    {
+        "id": 4,
+        "thumb": "4.jpg",
+        "subTitle": "İstanbul, Fatih",
+        "title": "Etimaden İşletmeleri Misafirhanesi",
+        "arrowIcon": "fas fa-arrow-right"
+    },
+    {
+        "id": 5,
+        "thumb": "5.jpg",
+        "subTitle": "İstanbul, Sancaktepe",
+        "title": "Hacı Ahmet Bıyık Camii ve Kuran Kursu",
+        "arrowIcon": "fas fa-arrow-right"
+    },
+    {
+        "id": 6,
+        "thumb": "6.jpg",
+        "subTitle": "İstanbul, Üsküdar",
+        "title": "Dr. HE Clinic",
+        "arrowIcon": "fas fa-arrow-right"
+    }
+]

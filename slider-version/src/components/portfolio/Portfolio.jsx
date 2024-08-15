@@ -18,7 +18,7 @@ const Portfolio = () => {
                             )}
                         </div>
                         <div className="button-container">
-                            <a href="/allProjects/allProjects.jsx" className="view-all-button">Tüm Projeler</a> {/* Buton map dışında eklendi */}
+                            <a href="/all-projects" className="view-all-button">Tüm Projeler</a> {/* Buton map dışında eklendi */}
                         </div>
                     </div>
                 </div>

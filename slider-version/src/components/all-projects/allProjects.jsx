@@ -1,6 +1,6 @@
 import React from 'react';
-import PortfolioData from '@/assets/jsonData/portfolio/PortfolioData.json';
-import SinglePortfolio from './SinglePortfolio';
+import ProjectData from '@/assets/jsonData/projects/ProjectData.json';
+import SingleProject from './SingleProject';
 
 const AllProjects = () => {
     return (
@@ -13,8 +13,8 @@ const AllProjects = () => {
                     
                     <div className="col-lg-10 offset-lg-1 thumb">
                         <div id="portfolio-grid" className="gallery-items colums-3">
-                            {PortfolioData.map(portfolio =>
-                                <SinglePortfolio portfolio={portfolio} key={portfolio.id} />
+                            {ProjectData.map(portfolio =>
+                                <SingleProject portfolio={portfolio} key={portfolio.id} />
                             )}
                         </div>
                     </div>

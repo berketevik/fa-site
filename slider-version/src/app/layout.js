@@ -20,7 +20,7 @@ import Dependency from '@/components/utilities/Dependency';
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ambrox - Personal Portfolio Template"
+  title: "FA Mimarlık"
 };
 
 export default function RootLayout({ children }) {

@@ -7,7 +7,7 @@ const LayoutStyle1 = ({ children }) => {
         <>
             <HeaderStyle2 />
             {children}
-            <FooterStyle1 />
+            
         </>
     );
 };
