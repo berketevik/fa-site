@@ -17,7 +17,7 @@ const BannerSlides = () => {
                 alignItems: 'center',
             }}>
                 <Image src={illustration3} alt="Thumb" width={603} height={612} />
-                <Image style={{position:'absolute',zIndex:'-1'}} src={shape7} alt="Thumb" className='imgFilter'/>
+                
 
                 {/* <div className="thumb align-center">
                             <Image src={illustration3} alt="Thumb" width={603} height={612}  />

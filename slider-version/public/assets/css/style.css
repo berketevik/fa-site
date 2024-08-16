@@ -294,7 +294,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--color-heading);
+	color: var(--black);
 	font-weight: normal;
 	line-height: 1.2;
 	letter-spacing: 0;

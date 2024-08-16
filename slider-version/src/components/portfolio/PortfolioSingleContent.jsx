@@ -1,19 +1,31 @@
 import React from 'react';
 import Image from 'next/image';
 import SocialShare from '../utilities/SocialShare';
-
+import fs from 'fs';
+import path from 'path';
+import Slider from '../widgets/Slider'
 const PortfolioSingleContent = ({ projectContent }) => {
     const { id, title, thumb, subTitle, arrowIcon } = projectContent
+    const imagesDir = path.join(process.cwd(), `public/assets/fa_mimarlik/${id}`);
+    let imagePaths = [];
 
+    try {
+        const files = fs.readdirSync(imagesDir);
+        imagePaths = files
+        .filter(file => file.endsWith('.jpg'))
+        .map(file => `/assets/fa_mimarlik/${id}/${file}`);
+    } catch (error) {
+        console.error('Error reading directory:', error);
+    }
     return (
         <>
             <div className="project-details-area default-padding">
                 <div className="container">
                     <div className="project-details-items">
                         <div className="project-thumb">
-                            <Image src={`/assets/img/project/${thumb}`} alt="thumb" width={1175} height={515} />
-
+                            <Slider images={imagePaths} />
                         </div>
+                
                         <div className="top-info">
                             <div className="row">
                                 <div className="col-xl-12 left-info">

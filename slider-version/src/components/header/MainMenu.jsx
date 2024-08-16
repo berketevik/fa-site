@@ -5,8 +5,8 @@ const MainMenu = ({ toggleSubMenu }) => {
     return (
         <>
             <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/all-projects">Projects</Link></li>
+                <li><Link href="/">Ana Sayfa</Link></li>
+                <li><Link href="/all-projects">Tüm Projeler</Link></li>
             </ul>
         </>
     );

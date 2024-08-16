@@ -23,13 +23,7 @@ const ProjectDetailsContent = () => {
                                         <li>
                                             Project Type <span>Website Growth</span>
                                         </li>
-                                        <li>
-                                            Date <span>25 July, 2024</span>
-                                        </li>
-                                        <li>
-                                            Address <span>New York United state</span>
-                                        </li>
-                                    </ul>
+                                       </ul>
                                     <ul className="social">
                                         <li>
                                             <h4>Share:</h4>
