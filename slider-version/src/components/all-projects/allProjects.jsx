@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectData from '@/assets/jsonData/projects/ProjectData.json';
 import SingleProject from './SingleProject';
+import Link from 'next/link';
 
 const AllProjects = () => {
     return (
@@ -8,7 +9,9 @@ const AllProjects = () => {
             <div className="content">
                 <div className="row align-center">
                     <div className="col-lg-1 info">
-                        <h2 className="curbe-title">Tüm Projeler</h2>
+                        <h2 className="curbe-title">
+                            <Link href="/">Ana Sayfa</Link>
+                        </h2>
                     </div>
                     
                     <div className="col-lg-10 offset-lg-1 thumb">

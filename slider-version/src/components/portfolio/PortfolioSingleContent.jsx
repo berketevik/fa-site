@@ -5,15 +5,15 @@ import fs from 'fs';
 import path from 'path';
 import Slider from '../widgets/Slider'
 const PortfolioSingleContent = ({ projectContent }) => {
-    const { id, title, thumb, subTitle, arrowIcon } = projectContent
-    const imagesDir = path.join(process.cwd(), `public/assets/fa_mimarlik/${id}`);
+    const { id, title, yer, tip, grup, isveren, ofis, baslangic, bitis, sure, alan } = projectContent
+    const imagesDir = path.join(process.cwd(), `public/FaMimarlikProjeler/${id}`);
     let imagePaths = [];
 
     try {
         const files = fs.readdirSync(imagesDir);
         imagePaths = files
-        .filter(file => file.endsWith('.jpg'))
-        .map(file => `/assets/fa_mimarlik/${id}/${file}`);
+            .filter(file => file.endsWith('.jpg'))
+            .map(file => `/assets/fa_mimarlik/${id}/${file}`);
     } catch (error) {
         console.error('Error reading directory:', error);
     }
@@ -25,7 +25,7 @@ const PortfolioSingleContent = ({ projectContent }) => {
                         <div className="project-thumb">
                             <Slider images={imagePaths} />
                         </div>
-                
+
                         <div className="top-info">
                             <div className="row">
                                 <div className="col-xl-12 left-info">
@@ -35,59 +35,40 @@ const PortfolioSingleContent = ({ projectContent }) => {
                                                 <li>
                                                     {title}
                                                 </li>
+                                                
                                                 <li>
-                                                    {subTitle}
+                                                    {yer}
                                                 </li>
                                                 <li>
-                                                    Date <span>25 July, 2024</span>
+                                                    {tip}
                                                 </li>
                                                 <li>
-                                                    Address <span>New York United state</span>
+                                                    {grup}
                                                 </li>
+
+                                                <li>
+                                                    {isveren}
+                                                </li>
+                                                <li>
+                                                    {ofis}
+                                                </li>
+                                                <li>
+                                                    {baslangic}
+                                                </li>
+                                                <li>{bitis}</li>
+                                                <li>{sure}</li>
+                                                <li>{alan}</li>
+
+
                                             </ul>
-                                            <ul className="social">
-                                                <li>
-                                                    <h4>Share:</h4>
-                                                </li>
-                                                <SocialShare />
-                                            </ul>
+
                                         </div>
                                     </div>
-                                    <h2>Ongoing Website Maintenance</h2>
-                                    <p>
-                                        Netus lorem rutrum arcu dignissim at sit morbi phasellus nascetur eget urna potenti cum vestibulum cras. Tempor nonummy metus lobortis. Sociis velit etiam, dapibus. Lectus vehicula pellentesque cras posuere tempor facilisi habitant lectus rutrum pede quisque hendrerit parturient posuere mauris ad elementum fringilla facilisi volutpat fusce pharetra felis sapien varius quisque class convallis praesent est sollicitudin donec nulla venenatis, cursus fermentum netus posuere sociis porta risus habitant malesuada nulla habitasse hymenaeos. Viverra curabitur nisi vel sollicitudin dictum natoqu. Tempor nonummy metus lobortis. Sociis velit etiam, dapibus. Lectus vehicula pellentesque cras posuere tempor facilisi habitant lectus rutrum pede quisque hendrerit parturient posuere mauris ad elementum fringilla facilisi volutpat fusce pharetra felis sapien varius quisque class convallis praesent est sollicitudin donec nulla venenatis, cursus fermentum netus posuere sociis porta risus habitant malesuada nulla habitasse hymenaeos. Viverra curabitur nisi vel sollicitudin dictum.
-                                    </p>
-                                    <ul className="check-list mt-40">
-                                        <li>
-                                            <h4>WordPress Support</h4>
-                                            <p>
-                                                Tempor nonummy metus lobortis. Sociis velit etiam, dapibus. Lectus vehicula pellentesque cras posuere tempor facilisi habitant lectus rutrum pede quisque hendrerit parturient posuere mauris ad elementum fringilla facilisi volutpat fusce pharetra.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Social Media Management</h4>
-                                            <p>
-                                                Energy nonummy metus lobortis. Sociis velit etiam, dapibus. Lectus vehicula pellentesque cras posuere tempor facilisi habitant lectus rutrum pede quisque hendrerit parturient posuere mauris ad elementum fringilla facilisi volutpat fusce pharetra.
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="main-content mt-40">
-                            <p>
-                                Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her.  Facilisis inceptos nec, potenti nostra aenean lacinia varius semper ant nullam nulla primis placerat facilisis. Netus lorem rutrum arcu dignissim at sit morbi phasellus nascetur eget urna potenti cum vestibulum cras. Tempor nonummy metus lobortis. Sociis velit etiam, dapibus. Lectus vehicula pellentesque cras posuere tempor facilisi habitant lectus rutrum pede quisque hendrerit parturient posuere mauris ad elementum fringilla facilisi volutpat fusce pharetra felis sapien varius quisque class convallis praesent est sollicitudin donec nulla venenatis, cursus fermentum netus posuere sociis porta risus habitant malesuada nulla habitasse hymenaeos. Viverra curabitur nisi vel sollicitudin dictum natoque ante aenean elementum curae malesuada ullamcorper. vivamus nonummy nisl posuere rutrum
-                            </p>
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6">
-                                    <Image src={`/assets/img/project/${thumb}`} alt="Thumb" width={160} height={200} />
-                                </div>
 
-                                <div className="col-lg-6 col-md-6">
-                                    <Image src={`/assets/img/project/${thumb}`} alt="Thumb" width={160} height={200} />
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

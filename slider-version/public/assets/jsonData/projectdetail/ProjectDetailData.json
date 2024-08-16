@@ -15,10 +15,16 @@
     },
     {
         "id": 3,
-        "thumb": "3.jpg",
-        "subTitle": "İstanbul, Şişli",
         "title": "Kanyon Divan Pub",
-        "arrowIcon": "fas fa-arrow-right"
+        "yer": "Proje Yeri: İstanbul, Beyoğlu",
+        "tip": "Proje Tipi: Restoran/ Kafe/ Bar",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Divan Pastaneleri",
+        "ofis": "Mimari Ofis: URAStudio",
+        "baslangic": "Başlangıç Yılı: 2022",
+        "bitis": "Bitiş Yılı: 2022",
+        "sure": "İnşaat Süresi: 3 Ay",
+        "alan": "Toplam İnşaat Alanı: 260 m²"
     },
     
     {
