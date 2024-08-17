@@ -1,21 +1,7 @@
 [
     {
         "id": 1,
-        "thumb": "1.jpg",
-        "subTitle": "İstanbul, Beyoğlu",
         "title": "Galataport Divan Brasserie",
-        "arrowIcon": "fas fa-arrow-right"
-    },
-    {
-        "id": 2,
-        "thumb": "11.jpg",
-        "subTitle": "İstanbul, Ataköy",
-        "title": "Medicana Hastanesi Divan Cafeteria",
-        "arrowIcon": "fas fa-arrow-right"
-    },
-    {
-        "id": 3,
-        "title": "Kanyon Divan Pub",
         "yer": "Proje Yeri: İstanbul, Beyoğlu",
         "tip": "Proje Tipi: Restoran/ Kafe/ Bar",
         "grup": "Proje Tipi Grubu: Özel",
@@ -26,26 +12,139 @@
         "sure": "İnşaat Süresi: 3 Ay",
         "alan": "Toplam İnşaat Alanı: 260 m²"
     },
+    {
+        "id": 2,
+        "title": "Medicana Hastanesi Divan Cafeteria",
+        "yer": "Proje Yeri: İstanbul, Ataköy",
+        "tip": "Proje Tipi: Restoran/ Kafe",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Divan Pastaneleri",
+        "ofis": "Mimari Ofis: Peka Mimarlık",
+        "baslangic": "Başlangıç Yılı: 2023",
+        "bitis": "Bitiş Yılı: 2023",
+        "sure": "İnşaat Süresi: 3 Ay",
+        "alan": "Toplam İnşaat Alanı: 350 m²"
+    },
+    {
+        "id": 3,
+        "title": "Kanyon Divan Pub",
+        "yer": "Proje Yeri: İstanbul, Şişli",
+        "tip": "Proje Tipi: Restoran/ Kafe/ Bar",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Divan Pastaneleri",
+        "ofis": "Mimari Ofis: Net Mimarlık",
+        "baslangic": "Başlangıç Yılı: 2023",
+        "bitis": "Bitiş Yılı: 2023",
+        "sure": "İnşaat Süresi: 3 Ay",
+        "alan": "Toplam İnşaat Alanı: 410 m²"
+    },
     
     {
         "id": 4,
-        "thumb": "4.jpg",
-        "subTitle": "İstanbul, Fatih",
         "title": "Etimaden İşletmeleri Misafirhanesi",
-        "arrowIcon": "fas fa-arrow-right"
+        "yer": "Proje Yeri: İstanbul, Fatih",
+        "tip": "Proje Tipi: Otel/Konaklama",
+        "grup": "Proje Tipi Grubu: Kamu",
+        "isveren": "İşveren: Etimaden İşletmeleri Genel Müdürlüğü",
+        "ofis": "Mimari Ofis: Ven Mimarlık",
+        "baslangic": "Başlangıç Yılı: 2019",
+        "bitis": "Bitiş Yılı: 2020",
+        "sure": "İnşaat Süresi: 13 Ay",
+        "alan": "Toplam İnşaat Alanı: 1740 m²"
     },
     {
         "id": 5,
-        "thumb": "5.jpg",
-        "subTitle": "İstanbul, Sancaktepe",
         "title": "Hacı Ahmet Bıyık Camii ve Kuran Kursu",
-        "arrowIcon": "fas fa-arrow-right"
+        "yer": "Proje Yeri: İstanbul, Sancaktepe",
+        "tip": "Proje Tipi: Dini",
+        "grup": "Proje Tipi Grubu: Kamu",
+        "isveren": "İşveren: İstanbul Büyükşehir Belediyesi Fen İşleri Daire Başkanlığı Yapı İşleri Müdürlüğü",
+        "ofis": "Mimari Ofis: Med-mim Mimarlık",
+        "alan": "Toplam İnşaat Alanı: 2140 m²"
     },
     {
         "id": 6,
-        "thumb": "6.jpg",
-        "subTitle": "İstanbul, Üsküdar",
-        "title": "Dr. HE Clinic",
-        "arrowIcon": "fas fa-arrow-right"
+        "title": "Dr. He Clinic",
+        "yer": "Proje Yeri: İstanbul, Üsküdar",
+        "tip": "Proje Tipi: Sağlık, Klinik",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Dr. HE Clinic",
+        "ofis": "Mimari Ofis: FA Mimarlık",
+        "baslangic": "Başlangıç Yılı: 2021",
+        "bitis": "Bitiş Yılı: 2021",
+        "sure": "İnşaat Süresi: 4 Ay",
+        "alan": "Toplam İnşaat Alanı: 450 m²"
+    },
+    {
+        "id": 7,
+        "title": "Docvivo-Letsmedi Ofis",
+        "yer": "Proje Yeri: İstanbul, Üsküdar",
+        "tip": "Proje Tipi: Ofis",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Letsmedi",
+        "ofis": "Mimari Ofis: FA Mimarlık",
+        "baslangic": "Başlangıç Yılı: 2021",
+        "bitis": "Bitiş Yılı: 2021",
+        "sure": "İnşaat Süresi: 2 Ay",
+        "alan": "Toplam İnşaat Alanı: 350 m²"
+    },
+    {
+        "id": 8,
+        "title": "Koşuyolu Ofis Binası",
+        "yer": "Proje Yeri: İstanbul, Kadıköy",
+        "tip": "Proje Tipi: Ofis",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Hasan ERDEM",
+        "ofis": "Mimari Ofis: FA Mimarlık",
+        "sure": "İnşaat Süresi: 8 Ay",
+        "alan": "Toplam İnşaat Alanı: 850 m²"
+    },
+    {
+        "id": 9,
+        "title": "M-G Erkek Kuaför Salonu",
+        "yer": "Proje Yeri: İstanbul, Üsküdar",
+        "tip": "Proje Tipi: Kuaför",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Mustafa  Yeşil",
+        "ofis": "Mimari Ofis: FA Mimarlık",
+        "baslangic": "Başlangıç Yılı: 2023",
+        "bitis": "Bitiş Yılı: 2023",
+        "sure": "İnşaat Süresi: 1 Ay",
+        "alan": "Toplam İnşaat Alanı: 50 m²"
+    },
+    {
+        "id": 10,
+        "title": "Gençtürk Evi",
+        "yer": "Proje Yeri: İstanbul, Üsküdar",
+        "tip": "Proje Tipi: Villa",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Mehmet GENÇTÜRK",
+        "ofis": "Mimari Ofis: FA Mimarlık",
+        "baslangic": "Başlangıç Yılı: 2023",
+        "bitis": "Bitiş Yılı: 2023",
+        "sure": "İnşaat Süresi: 4 Ay",
+        "alan": "Toplam İnşaat Alanı: 200 m²"
+    },
+    {
+        "id": 11,
+        "title": "Bayar Villaları",
+        "yer": "Proje Yeri: İstanbul, Arnavutköy",
+        "tip": "Proje Tipi: Villa",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Abuzer BAYAR",
+        "ofis": "Mimari Ofis: FA Mimarlık",
+        "baslangic": "Başlangıç Yılı: 2024",
+        "alan": "Toplam İnşaat Alanı: 2500 m²"
+    },
+    {
+        "id": 12,
+        "title": "Çekmeköy Gökorman Teras",
+        "yer": "Proje Yeri: İstanbul, Çekmeköy",
+        "tip": "Proje Tipi: Konut",
+        "grup": "Proje Tipi Grubu: Özel",
+        "isveren": "İşveren: Serdar Atılgan",
+        "ofis": "Mimari Ofis: FA Mimarlık",
+        "baslangic": "Başlangıç Yılı: 2024",
+        "alan": "Toplam İnşaat Alanı: 60 m²"
     }
 ]
