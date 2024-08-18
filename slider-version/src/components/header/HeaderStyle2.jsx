@@ -28,22 +28,22 @@ const HeaderStyle2 = () => {
             <nav className={`navbar mobile-sidenav navbar-common navbar-sticky navbar-default validnavs on no-full ${isMenuSticky ? 'sticked' : ''}`}>
                 <div className="container d-flex justify-content-between align-items-center">
                     <div className="navbar-header">
-                        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={openMenu}>
+                        {/*<button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={openMenu}>
                             <i className="fa fa-bars"></i>
-                        </button>
+                        </button>*/}
                         <Link className="navbar-brand" href="/">
                             <h1>FA</h1>
                             {/* <Image src={logo} className="logo" alt="Logo" /> */}
                         </Link>
                     </div>
                     
-                    <div className={`collapse navbar-collapse collapse-mobile ${isOpen ? "show" : ""}`} id="navbar-menu">
+                    {/*<div className={`collapse navbar-collapse collapse-mobile ${isOpen ? "show" : ""}`} id="navbar-menu">
                     <Image src={logo} alt="Logo" />
                         <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                             <i className="fa fa-times"></i>
                         </button>
                         <MainMenu isOpen={isOpen} closeMenu={closeMenu} toggleSubMenu={toggleSubMenu} />
-                    </div>
+                    </div>*/}
                     <div className="attr-right">
                         <div className="attr-nav attr-box multi">
                             <ul>

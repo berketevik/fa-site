@@ -155,6 +155,7 @@ img {
 	border: none;
 	outline: none;
 	max-width: 100%;
+	max-height: 100%;
 	height: auto;
 }
 
@@ -168,7 +169,7 @@ label {
 a {
 	outline: none;
 	text-decoration: none;
-	color: var(--color-heading);
+	color: var(--black);
 }
 
 a img {
@@ -4203,7 +4204,7 @@ header.header-fixed .video-play-button.theme:after {
 
 .gallery-items.colums-3 .pf-item {
 	float: left;
-	padding: 15px;
+	padding: 12px 8px;
 	width: 33.3333%;
 }
 
@@ -4324,9 +4325,8 @@ header.header-fixed .video-play-button.theme:after {
 	left: 0;
 	bottom: -50px;
 	right: 0;
-	background: var(--white);
+	background: rgba(255,255,255, 0.7);
 	transition: all 0.35s ease-in-out;
-	opacity: 0;
 	visibility: hidden;
 }
 
@@ -4363,7 +4363,7 @@ header.header-fixed .video-play-button.theme:after {
 	width: 50px;
 	text-align: center;
 	line-height: 45px;
-	background: var(--white);
+	background: rgba(255,255,255, 0.1);
 	border-radius: 50%;
 	border: 3px solid var(--dark);
 	position: relative;
@@ -4372,11 +4372,15 @@ header.header-fixed .video-play-button.theme:after {
 	visibility: hidden;
 	transition-delay: 0.20s;
 }
+
+
 .pf-item .overlay-content img {
 	width: 100%;
 	height: 100%;
 	object-fit: fill;
-	max-height: 142px !important;
+	max-height: 180px !important;
+	min-height: 180px !important;
+
 }
 
 .pf-item .overlay-content .content>a i {
@@ -6311,8 +6315,8 @@ footer {
 	}
 	#portfolio-grid {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr); /* Gerekirse sütun sayısını ayarlayın */
-		gap: 20px; /* Grid öğeleri arasındaki boşluğu ayarlayın */
+		grid-template-columns: repeat(2, 1fr); /* Gerekirse sütun sayısını ayarlayın */
+		gap: 10px; /* Grid öğeleri arasındaki boşluğu ayarlayın */
 	}
 	
 
@@ -7052,7 +7056,7 @@ ul.side-nav li a:hover {
 	.banner-style-one.banner-three h2.curbe-title {
 		transform: inherit;
 		writing-mode: inherit;
-		font-size: 36px;
+		font-size: 48px;
 	}
 
 	.banner-three .service-style-one:last-child .service-style-one-item {
@@ -7268,16 +7272,13 @@ ul.side-nav li a:hover {
 	}
   }
   
-  @media (max-width: 480px) {
-	.logo-container {
-	  max-width: 150px; /* Mobil cihazlar için */
-	}
-  }
   .button-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
+
+
 
 .view-all-button {
 	padding: 3px 10px;
@@ -7304,4 +7305,31 @@ ul.side-nav li a:hover {
 	color: white;
 }
 
+.jsx-f6aebe4eba41ce9f.slider-image img{
+    border: none;
+	outline: none;
+	max-width: 1000px;
+    max-height: 1244px;
+	object-fit: contain;
+   
+}
+
   
+@media (min-width: 200px) and (max-width: 480px) {
+	.logo-container {
+		max-width: 150px; /* Mobil cihazlar için */
+	  }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1224px) {
+	.view-all-button{
+     right: 10%;
+	}
+
+}
+@media (max-width: 1023px) {
+    nav.navbar.validnavs {
+        padding: 27px 0 !important;
+    }
+}

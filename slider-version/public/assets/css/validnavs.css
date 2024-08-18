@@ -952,9 +952,8 @@ body.on-side nav.navbar::after {
 	display: inline-block;
 }
 
-.navbar .side .widget.social li a {
-	color: var(--dark);
-	display: inline-block;
+/* .navbar .side .widget.social li a {
+	color: var(--black);
 	font-weight: 700;
 	height: 45px;
 	line-height: 45px;
@@ -965,12 +964,34 @@ body.on-side nav.navbar::after {
 	width: 45px;
 	border-radius: 50%;
 	border: 1px solid #e7e7e7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.5s ease-in-out;
+} */
+
+/* .navbar .side .widget.social li a:hover {
+	color: var(--white) !important;
+	border-color: var(--black);
+} */
+
+.navbar .side .widget.social li a svg path {
+	transition: all 0.5s ease-in-out;
 }
 
-.navbar .side .widget.social li a:hover {
-	background: var(--dark) none repeat scroll 0 0 !important;
-	color: var(--white) !important;
-	border-color: var(--dark);
+.navbar .side .widget.social li a:hover svg path {
+	transition: all 0.5s ease-in-out;
+	fill: rgb(54, 46, 46) !important;
+}
+
+
+.navbar .side .widget.social li a svg {
+	width: 40px !important;
+	height: 40px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
 }
 
 @media (min-width: 1200px) {
@@ -1134,7 +1155,7 @@ nav.navbar.validnavs {
 
 nav.navbar.validnavs.attr-border-full,
 nav.navbar.validnavs.brand-center {
-	padding: 0;
+	padding: 20px 0;
 }
 
 @media (min-width: 1024px) and (max-width: 1400px) {

@@ -10,7 +10,7 @@ const AllProjects = () => {
                 <div className="row align-center">
                     <div className="col-lg-1 info">
                         <h2 className="curbe-title">
-                            <Link href="/">Ana Sayfa</Link>
+                            <Link href="/">Anasayfa</Link>
                         </h2>
                     </div>
                     
