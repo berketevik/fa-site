@@ -16,7 +16,7 @@ const BannerSlides = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
             }}>
-                <Image src={illustration3} alt="Thumb" width={603} height={612} />
+                <Image src={illustration3} alt="Thumb" width={690} height={752} />
                 
 
                 {/* <div className="thumb align-center">
