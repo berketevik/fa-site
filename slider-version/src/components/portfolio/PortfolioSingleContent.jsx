@@ -23,7 +23,7 @@ const PortfolioSingleContent = ({ projectContent }) => {
                 <div className="container">
                     <div className="project-details-items">
                         <div className="project-thumb">
-                            <Slider images={imagePaths} />
+                            {/* <Slider images={imagePaths} /> */}
                         </div>
 
                         <div className="top-info">
